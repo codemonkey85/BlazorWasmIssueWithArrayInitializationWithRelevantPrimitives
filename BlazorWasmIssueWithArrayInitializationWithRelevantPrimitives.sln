@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoesntWorkInBlazorWasm", "BlazorWasmIssueWithArrayInitializationWithRelevantPrimitives\DoesntWorkInBlazorWasm.csproj", "{F9E4F58D-AD16-463B-B52C-65A934D1C0FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoesntWorkInBlazorWasm", "BlazorWasmIssueWithArrayInitializationWithRelevantPrimitives\DoesntWorkInBlazorWasm.csproj", "{F9E4F58D-AD16-463B-B52C-65A934D1C0FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorksInConsole", "WorksInNonMono\WorksInConsole.csproj", "{D44B020C-4B7E-4BA5-A426-9715FBAE094E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorksInConsole", "WorksInNonMono\WorksInConsole.csproj", "{D44B020C-4B7E-4BA5-A426-9715FBAE094E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC69EDDB-EAB3-4EEA-AF77-7EF6B26B8E3A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheTestCode", "TheTestCode\TheTestCode.csproj", "{1CCF7389-AB48-41EB-B337-1A3DF4C805D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,10 @@ Global
 		{D44B020C-4B7E-4BA5-A426-9715FBAE094E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D44B020C-4B7E-4BA5-A426-9715FBAE094E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D44B020C-4B7E-4BA5-A426-9715FBAE094E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCF7389-AB48-41EB-B337-1A3DF4C805D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCF7389-AB48-41EB-B337-1A3DF4C805D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCF7389-AB48-41EB-B337-1A3DF4C805D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCF7389-AB48-41EB-B337-1A3DF4C805D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
